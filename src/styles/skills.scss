@@ -1,0 +1,154 @@
+/* Example styling for the skill section with progress bars */
+#skills {
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+    background-color: $color1;
+    display: grid;
+    grid-template-columns: repeat(2fr, 1);
+    overflow-x: hidden;
+}
+
+.skills-container {
+
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 $p;
+
+    >div {
+        color: $color4;
+        background-color: $color5;
+        width: 70vw;
+        height: 120px;
+        position: relative;
+        margin: 3rem 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 10px;
+
+        >svg {
+            // border: 2px solid #fff;
+            position: absolute;
+            left: 5%;
+            top: 30%;
+            font-size: 3rem;
+        }
+
+        .content{
+            // border: 2px solid #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 67%;
+            margin-left: 2rem;
+            padding: 5px;
+
+            h3{
+                font: 600 1.2rem $text2;
+                text-decoration: underline;
+            }
+            progress{
+                
+                margin: 1rem;
+                width: 100%;
+                color: black;
+            }
+        }
+    }
+    .endorseBtn{
+        border: 2px solid #fff;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: relative;
+        left: 80%;
+        top: 22%;
+        font: 700 0.8rem $text2;
+        transition: all 0.3s;
+        &:hover{
+            background-color: $color6_1;
+            color: $color4;
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+.progress-container {
+    width: 100%; /* Set the container's width to 100% */
+    background-color: #ccc; /* Set a background color for the progress container */
+    height: 10px; /* Set the desired height of the progress container */
+    border-radius: 5px; /* Add rounded corners to the progress container */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.progress-bar {
+    height: 100%; /* Set the height of the progress bar to 100% of the container's height */
+    background-color: $color3; /* Set the color of the progress bar */
+}
+
+
+
+// responsive
+/* Default styling */
+#skills {
+    padding: 50px 0;
+    text-align: center;
+    background-color: $color1;
+    display: grid;
+    grid-template-columns: repeat(2fr, 1);
+}
+
+.skills-container {
+    gap: 20px;
+    max-width: 1200px;
+    margin-right: $p;
+
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #skills {
+        grid-template-columns: 1fr; /* Single column layout on smaller screens */
+        margin-right: 3rem;
+    }
+
+    .skills-container > div {
+        width: 90vw; /* Adjust width for smaller screens */
+        height: auto; /* Allow content to determine height */
+        margin: 2rem auto; /* Center horizontally */
+        flex-direction: column; /* Stack content vertically */
+        justify-content: center;
+        text-align: center;
+
+        > svg {
+            position: static;
+            margin-bottom: 0.5rem;
+        }
+
+        .content {
+            
+            >p{
+                text-align: center;
+                display: none;
+            }
+        }
+
+        .endorseBtn {
+            width: 50px;
+            height: 50px;
+            font-size: 0.5rem;
+            left: auto;
+            top: auto;
+            transform: none;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .progress-container{
+        display: none;
+    }
+}

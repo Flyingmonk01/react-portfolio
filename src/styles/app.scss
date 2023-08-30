@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import "statics";
+@import "animations";
+@import "header";
+@import "home";
+@import "work";
+@import "timeline";
+@import "services";
+@import "skills";
+@import "contact";
+@import "footer";
+@import "mediaquerry";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: $text2;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.disableBtn{
+    color: $color6;
+    background-color: rgb(171, 169, 169) !important;
+    cursor: not-allowed !important;
+}
+
+#customMessage{
+    font: 900 5rem $text2;
+    color: $color6;
+}

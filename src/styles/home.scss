@@ -1,0 +1,132 @@
+#home{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+
+    >section{
+        width: 100%;
+
+        &:first-of-type{
+            padding-left: $p;
+
+            >div{
+                border-top: 1px solid $color6_2;
+                padding-top: 6rem;
+                height: 100%;
+                >h1{
+                    font: 900 3rem $text2;
+                }
+
+                .typewriterpara{
+                    // margin: 20px 0;
+                    height: 20px;
+                    letter-spacing: 5px;
+                    font: 600 1.2rem $text1;
+                }
+                
+                >div{
+                    display: flex;
+                    margin: 3rem 0;
+                    width: 70%;
+                    gap: 4rem;
+                    align-items: center;
+
+                    >a{
+                        &:first-of-type{
+                            background-color: $color3;
+                            color: $color1;
+                            padding: 1rem 2rem;
+                            transition: all 0.3s;
+                            border-radius: 0 50% 50% 0;
+
+                            &:hover{
+                                background-color: $color3_1;
+                            }
+                        }
+                        &:last-of-type{
+                            font: 600 1.2rem $text2;
+                            color: $color5;
+                            display: flex;
+                            align-items: center;
+                            transition: all 0.6s;
+                            &:hover{
+                                color: $color3;
+                            }
+                        }
+                    }
+                }
+                aside{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 70%;
+                }
+                article{
+                    margin: 2rem 0;
+                    width: 10rem;
+                    color: $color5;
+                 >p{
+                        font: 900 2rem $text1;
+                    }
+                >span{
+                        font: 500 1rem $text2;
+                    }
+                }
+
+                article[data-special]{
+                    width: 16rem;
+                }
+            }
+        }
+        &:last-of-type{
+            border-top: 1px solid $color6_2;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            overflow-x: hidden;
+
+            &::after{
+                content: "";
+                width: 40vmax;
+                height: 40vmax;
+                background-color: $color3;
+                position: absolute;
+                z-index: -1;
+                border-radius: 50%;
+            }
+            >img{
+                width: 36.5vmax;
+                height: 40vmax;
+                object-fit: contain;
+            }
+        }
+        
+    }
+    >svg{
+        position: absolute;
+        font-size: 4rem;
+        color: $color5;
+        left: 50%;
+        bottom: 5%;
+        transform: translateX((-50%));
+        animation: animateSvg 0.7s infinite linear alternate;
+    }
+}
+
+#resumeBtn{
+
+    border: 1px solid $color6_1;
+    padding: 0.5rem 2rem;
+    letter-spacing: 1px;
+    transition: all 0.6s;
+    background-color: $color1;
+    color: $color6;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover{
+        border-radius: 10%;
+        background-color: $color6;
+        color: $color4;
+    }
+}

@@ -1,0 +1,57 @@
+footer{
+    min-height: 100px;
+    background-color: $color6;
+    color: $color4;
+    padding: 6rem 0;
+    padding-left: $p;
+    display: grid;
+    grid-template-columns: 10fr 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    >div{
+        width: 100%;
+        border-left: 2px solid $color4;
+        border-right: 2px solid $color4;
+
+        >img{
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            // border-radius: 50%;
+        }
+    }
+
+    >aside{
+        >h2{
+            border-bottom: 2px solid $color4;
+            margin-bottom: 1rem;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        >a{
+            color: $color4;
+            font-size: 3rem;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    >a{
+        width: 40px;
+        height: 40px;
+        font-size: 2rem;
+        background-color: $color4;
+        color: $color3;
+        border-radius: 50%;
+        &:hover{
+            color: $color6;
+            transform: scale(1.1);
+            box-shadow: 0 0 2px 2px rgb(255, 255, 255);
+        }
+    }
+}
