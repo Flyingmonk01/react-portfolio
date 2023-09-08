@@ -34,8 +34,8 @@
         "date": "20/07/2023",
         "title": "C A D E M Y",
         "description": "This is the description about the project CADEMY. This is a full-stack project made with MERN-Stack. For More details of the project Please View Demo.",
-        "url": "/",
-        "imgSrc": "https://cademy-frontend.vercel.app/"
+        "url": "https://cademy-frontend.vercel.app/",
+        "imgSrc": "https://clipground.com/images/student-vector-clipart-2.png"
       }
     ]
   }
