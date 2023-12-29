@@ -49,7 +49,7 @@ const SkillSection = () => {
                     >
                         {skill.icon}
                         <div className="content">
-                            <h3>{skill.name}</h3>
+                            <h3 style={{textDecoration:'none'}}>{skill.name}</h3>
                             <p>{skill.description}</p>
                             <div className="progress-container">
                                 <div className="progress-bar" style={{ width: getProgressBarWidth(skill.level) }}></div>
