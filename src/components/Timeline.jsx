@@ -9,7 +9,6 @@ const Timeline = () => {
             data.projects.map((item, index) =>(
                 <TimelineItem 
                     heading={item.title}
-                    text = {item.date}
                     index = {index}
                     key={item.title}
                 />

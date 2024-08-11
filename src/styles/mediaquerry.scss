@@ -276,7 +276,7 @@
 
             .workItem {
                 height: 30vmax;
-                box-shadow: 0 0 5px $color1;
+                box-shadow: 0 0 5px var(--color1);
 
                 >aside {
                     padding: 1rem;

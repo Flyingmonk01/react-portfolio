@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillGithub, AiFillInstagram, AiFillYoutube, AiOutlineArrowUp } from 'react-icons/ai'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle,  AiOutlineArrowUp } from 'react-icons/ai'
 import ig from "../assets/5.png";
 
 const Footer = () => {
@@ -16,9 +16,10 @@ const Footer = () => {
 
         <aside>
             <h2>Social Media</h2>
-            <a href='https://youtube.com/' target='blank'><AiFillYoutube /></a>
-            <a href='https://instagram.com/' target='blank'><AiFillInstagram /></a>
-            <a href='https://github.com/' target='blank'><AiFillGithub/></a>
+            <a href='https://x.com/Flying_Monk_' target='blank'><AiFillTwitterCircle /></a>
+            <a href='https://www.instagram.com/flying.monk_/' target='blank'><AiFillInstagram /></a>
+            <a href='https://github.com/Flyingmonk01' target='blank'><AiFillGithub/></a>
+            <a href='https://www.linkedin.com/in/raisameer/' target='blank'><AiFillLinkedin/></a>
         </aside>
         <a href='#home' ><AiOutlineArrowUp /></a>
     </footer>

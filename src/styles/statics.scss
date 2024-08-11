@@ -1,17 +1,38 @@
+:root {
+
+    /* Light Theme */
+    --color1: #fef2f2;
+    --color2: #286f6c;
+    --color2_1: #174340;
+    --color3: #f26440;
+    --color3_light: rgb(249, 141, 141);
+    --color3_1: #ad4126;
+    --color4: #fff;
+    --color5: #292b46;
+    --color6: #161616;
+    --color6_1: #16161698;
+    --color6_2: #111111ce;
+
+  }
+  
+  body.dark {
+    --color1: #010d0d;        // Inversion of #fef2f2
+    --color2: #d79093;        // Inversion of #286f6c
+    --color2_1: #e8bcbf;      // Inversion of #174340
+    --color3: #0d9bbf;        // Inversion of #f26440
+    --color3_light: rgb(6, 114, 114); // Inversion of rgb(249, 141, 141)
+    --color3_1: #52be59;      // Inversion of #ad4126
+    --color4: #000;           // Inversion of #fff
+    --color5: #d6d4b9;        // Inversion of #292b46
+    --color6: #e9e9e9;        // Inversion of #161616
+    --color6_1: #e9e9e968;    // Inversion of #16161698
+    --color6_2: #e9e9e9dd;    // Inversion of #16161622
+  }
+  
+
+
 $text1: "Roboto", sans-serif;
 $text2: "Open Sans", sans-serif;
-
-$color1: #fef2f2;
-$color2: #286f6c;
-$color2_1: #174340;
-$color3: #f26440;
-$color3_light: rgb(249, 141, 141);
-$color3_1: #ad4126;
-$color4: #fff;
-$color5: #292b46;
-$color6: #161616;
-$color6_1: #16161698;
-$color6_2: #16161622;
 
 $p: 13.33vmax;
 $p_md: 7vmax;

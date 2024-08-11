@@ -1,7 +1,6 @@
 {
     "projects": [
       {
-        "date": "07/05/2023",
         "title": "CODEX",
         "description": "This is the description about the project CODEX, made with basic stuff of React.",
         "url": "https://react-dummy-beta.vercel.app/",
@@ -9,14 +8,12 @@
       },
   
       {
-        "date": "25/05/2023",
         "title": "VIDEO PLAYER",
         "description": "This is the description about the project React-Video-Player made with React and Chakra UI having dual theme.",
         "url": "https://react-video-player-eight.vercel.app/",
         "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
       },
       {
-        "date": "05/06/2023",
         "title": "XCrypto",
         "description": "This is the description about the project XCrypto. Somme Key-Features are accessibility to real-time data and Graph of the crypto in multiple currencies.",
         "url": "https://react-xcrypto-one.vercel.app/",
@@ -24,14 +21,12 @@
       },
   
       {
-        "date": "22/06/2023",
         "title": "PORTFOLIO",
         "description": "This is the description about the project Portfolio of mine created with React and SaSS. This is for showcase of workdone by me in this span of learning.",
         "url": "/",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
       },
       {
-        "date": "20/07/2023",
         "title": "C A D E M Y",
         "description": "This is the description about the project CADEMY. This is a full-stack project made with MERN-Stack. For More details of the project Please View Demo.",
         "url": "https://cademy-frontend.vercel.app/",

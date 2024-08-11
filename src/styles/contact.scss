@@ -2,12 +2,13 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: var(--color6_2);
 
 
     >section{
         width: 100%;
         height: 100%;
-        background-color: $color1;
+        background-color: var(--color1);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,15 +42,15 @@
 
             >button{
                 cursor: pointer;
-                background-color: $color3;
+                background-color: var(--color3);
                 text-transform: uppercase;
-                margin: 3rem;
-                color: $color4;
+                // margin: 3rem;
+                color: var(--color4);
                 font: 400 solid $text1;
                 width: 50%;
 
                 &:hover{
-                    background-color: $color3_1;
+                    background-color: var(--color3_1);
                 }
             }
         }
@@ -58,14 +59,14 @@
     >aside{
         width: 100%;
         height: 100%;
-        background-color: $color5;
+        background-color: var(--color5);
         display: grid;
         place-items: center;
         img{
             width: 70%;
             height: 70%;
             object-fit: contain;
-            filter: drop-shadow(0 0 10px rgba(214, 205, 205, 0.875)) hue-rotate(150deg);
+            filter: drop-shadow(0 0 10px var(--color3)) hue-rotate(150deg);
             animation: upupdowndown 0.7s infinite linear alternate;
         }
     }

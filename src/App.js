@@ -10,7 +10,8 @@ import { Toaster } from "react-hot-toast";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
+  
   const [ratio, setRatio] = useState(window.innerWidth / window.innerHeight);
   useEffect(() => {
     const resizeRatio = () => {
